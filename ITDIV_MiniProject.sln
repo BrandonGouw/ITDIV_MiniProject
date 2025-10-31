@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelanjaYuk.API", "BelanjaYuk.API\BelanjaYuk.API.csproj", "{55A0FD87-EE10-43F9-9FB9-8AEC1279A6F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelanjaYuk.WebClient", "BelanjaYuk.WebClient\BelanjaYuk.WebClient.csproj", "{1682A87F-0AA6-4C7B-A707-C310F5D68176}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55A0FD87-EE10-43F9-9FB9-8AEC1279A6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A0FD87-EE10-43F9-9FB9-8AEC1279A6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A0FD87-EE10-43F9-9FB9-8AEC1279A6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A0FD87-EE10-43F9-9FB9-8AEC1279A6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1682A87F-0AA6-4C7B-A707-C310F5D68176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1682A87F-0AA6-4C7B-A707-C310F5D68176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1682A87F-0AA6-4C7B-A707-C310F5D68176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1682A87F-0AA6-4C7B-A707-C310F5D68176}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
