@@ -1,7 +1,9 @@
-﻿using Beliyuk.API.Models;
+﻿using Belanjayuk.API.Models.LookUpTable;
+using Belanjayuk.API.Models.Master;
+using Belanjayuk.API.Models.Transaction;
 using Microsoft.EntityFrameworkCore;
 
-namespace Beliyuk.API.Data
+namespace Belanjayuk.API.Data
 {
     public class BelanjaYuk : DbContext
     {
@@ -64,6 +66,8 @@ namespace Beliyuk.API.Data
             modelBuilder.Entity<TrBuyerTransaction>().ToTable("TrBuyerTransaction");
             modelBuilder.Entity<TrBuyerTransactionDetail>().ToTable("TrBuyerTransactionDetail");
             modelBuilder.Entity<TrHomeAddress>().ToTable("TrHomeAddress");
+            
+            new DbSeeder().SeedLookupTables(modelBuilder);
         }
     }
 }

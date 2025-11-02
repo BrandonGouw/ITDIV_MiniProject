@@ -1,15 +1,15 @@
-﻿using Beliyuk.API.Models;
-using Beliyuk2.API.DTO.Request;
-using Beliyuk2.API.DTO.Response;
-using Beliyuk2.API.Repositories;
-using Beliyuk2.API.Services.Interfaces;
+﻿using Belanjayuk.API.DTO.Request;
+using Belanjayuk.API.DTO.Response;
+using Belanjayuk.API.Models.Master;
+using Belanjayuk.API.Repositories.Interfaces;
+using Belanjayuk.API.Services.Interfaces;
 
-namespace Beliyuk2.API.Services;
+namespace Belanjayuk.API.Services;
 
 public class ProductService : IProductService {
-    private ProductRepository _productRepo;
+    private IProductRepository _productRepo;
 
-    public ProductService(ProductRepository productRepo)
+    public ProductService(IProductRepository productRepo)
     {
         _productRepo = productRepo;
     }
@@ -66,6 +66,29 @@ public class ProductService : IProductService {
     {
         return await _productRepo.GetAllProductsAsync();
     }
+
+    public async Task<ProductResponseDto> CreateProductAsync(ProductCreationRequestDto productRequestDto)
+    {
+        var msProduct = new MsProduct
+        {
+            IdProduct = Guid.NewGuid().ToString(),
+            ProductName = productRequestDto.ProductName,
+            ProductDesc = productRequestDto.ProductDesc,
+            Price = productRequestDto.Price,
+            Qty = productRequestDto.Qty,
+            IsActive = true,
+            DateIn = DateTime.UtcNow,
+            DateUp = DateTime.UtcNow,
+            UserIn = "SYSTEM",
+            UserUp = "SYSTEM",
+            IdCategory = productRequestDto.IdCategory
+        };
+
+        await _productRepo.CreateProductAsync(msProduct);
+        
+        return MsProductToDto(msProduct);
+    }
+
 
     public ProductResponseDto MsProductToDto(MsProduct product)
     {

@@ -81,3 +81,4 @@ C:\Users\brand\RiderProjects\ITDIV_MiniProject\BelanjaYuk.API\bin\Debug\net6.0\M
 C:\Users\brand\RiderProjects\ITDIV_MiniProject\BelanjaYuk.API\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
 C:\Users\brand\RiderProjects\ITDIV_MiniProject\BelanjaYuk.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\brand\RiderProjects\ITDIV_MiniProject\BelanjaYuk.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\brand\RiderProjects\ITDIV_MiniProject\BelanjaYuk.API\obj\Debug\net6.0\BelanjaYuk.API.sourcelink.json

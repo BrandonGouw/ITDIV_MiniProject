@@ -1,10 +1,10 @@
-﻿using Beliyuk.API.Data;
-using Beliyuk.API.Models;
-using Beliyuk2.API.DTO.Request;
-using Beliyuk2.API.Repositories.Interfaces;
+﻿using Belanjayuk.API.Data;
+using Belanjayuk.API.DTO.Request;
+using Belanjayuk.API.Models.Master;
+using Belanjayuk.API.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Beliyuk2.API.Repositories;
+namespace Belanjayuk.API.Repositories;
 
 public class ProductRepository : IProductRepository
 {

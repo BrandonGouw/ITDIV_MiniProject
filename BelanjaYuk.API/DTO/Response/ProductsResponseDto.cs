@@ -1,7 +1,9 @@
-﻿namespace Beliyuk2.API.DTO.Response;
+﻿namespace Belanjayuk.API.DTO.Response;
 
 public class ProductsResponseDto
 {
+    public String SellerId { get; set; }
+    
     public List<ProductResponseDto> Items { get; set; }
     public int TotalItems { get; set; }
     

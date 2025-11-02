@@ -1,6 +1,6 @@
-﻿using Beliyuk.API.Models;
+﻿using Belanjayuk.API.Models.Master;
 
-namespace Beliyuk2.API.Repositories.Interfaces;
+namespace Belanjayuk.API.Repositories.Interfaces;
 
 // Repositories/Interfaces/IUserPasswordRepository.cs
 public interface IUserPasswordRepository {

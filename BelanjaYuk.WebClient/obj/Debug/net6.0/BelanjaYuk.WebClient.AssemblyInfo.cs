@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BelanjaYuk.WebClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d376da6415796234b2c5b15fb64d9f030aae6b80")]
 [assembly: System.Reflection.AssemblyProductAttribute("BelanjaYuk.WebClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BelanjaYuk.WebClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

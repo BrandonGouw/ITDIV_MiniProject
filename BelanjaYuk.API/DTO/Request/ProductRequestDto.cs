@@ -1,4 +1,4 @@
-﻿namespace Beliyuk2.API.DTO.Request;
+﻿namespace Belanjayuk.API.DTO.Request;
 
 public class ProductRequestDto
 {

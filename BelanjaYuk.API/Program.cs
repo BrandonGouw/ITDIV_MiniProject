@@ -1,10 +1,10 @@
 using System.Text;
-using Beliyuk.API.Controllers;
-using Beliyuk.API.Data;
-using Beliyuk2.API.Repositories;
-using Beliyuk2.API.Repositories.Interfaces;
-using Beliyuk2.API.Services;
-using Beliyuk2.API.Services.Interfaces;
+using Belanjayuk.API.Data;
+using Belanjayuk.API.Helpers;
+using Belanjayuk.API.Repositories;
+using Belanjayuk.API.Repositories.Interfaces;
+using Belanjayuk.API.Services;
+using Belanjayuk.API.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -31,7 +31,13 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ISellerRepository, SellerRepository>();
+builder.Services.AddScoped<ISellerService, SellerService>();
 builder.Services.AddScoped<IJwtService, JwtService>();
+builder.Services.AddScoped<IBuyerTransactionRepository, BuyerTransactionRepository>();
+builder.Services.AddScoped<IBuyerTransactionService, BuyerTransactionService>();
+builder.Services.AddScoped<IProductImageRepository, ProductImageRepository>();
+builder.Services.AddScoped<IProductImageService, ProductImageService>();
 
 builder.Services.AddHttpContextAccessor();
 
@@ -51,6 +57,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddAuthorization();
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

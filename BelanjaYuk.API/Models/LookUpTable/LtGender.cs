@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Beliyuk.API.Models;
+namespace Belanjayuk.API.Models.LookUpTable;
 
 public class LtGender
 {

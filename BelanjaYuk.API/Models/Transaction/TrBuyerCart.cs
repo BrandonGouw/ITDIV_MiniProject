@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Belanjayuk.API.Models.Master;
 
-namespace Beliyuk.API.Models;
+namespace Belanjayuk.API.Models.Transaction;
 
 public class TrBuyerCart
 {

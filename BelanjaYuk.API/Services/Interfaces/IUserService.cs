@@ -1,6 +1,6 @@
-﻿using Beliyuk2.API.DTO.Response;
+﻿using Belanjayuk.API.DTO.Response;
 
-namespace Beliyuk2.API.Services.Interfaces;
+namespace Belanjayuk.API.Services.Interfaces;
 
 public interface IUserService
 {

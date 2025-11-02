@@ -1,5 +1,7 @@
-﻿using Beliyuk2.API.DTO.Request;
-using Beliyuk2.API.DTO.Response;
+﻿using Belanjayuk.API.DTO.Request;
+using Belanjayuk.API.DTO.Response;
+
+namespace Belanjayuk.API.Services.Interfaces;
 
 public interface IAuthService
 {

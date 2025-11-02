@@ -1,7 +1,12 @@
 ﻿// Repositories/UserRepository.cs
-using Beliyuk.API.Data;
-using Beliyuk.API.Models;
+
+using Belanjayuk.API.Data;
+using Belanjayuk.API.Models.LookUpTable;
+using Belanjayuk.API.Models.Master;
+using Belanjayuk.API.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+
+namespace Belanjayuk.API.Repositories;
 
 public class UserRepository : IUserRepository
 {

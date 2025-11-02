@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J0ro3jQOy1Q=",
+  "dgSpecHash": "JyvXbSrX09E=",
   "success": true,
   "projectFilePath": "C:\\Users\\brand\\RiderProjects\\ITDIV_MiniProject\\BelanjaYuk.API\\BelanjaYuk.API.csproj",
   "expectedPackageFiles": [
@@ -53,7 +53,6 @@
     "C:\\Users\\brand\\.nuget\\packages\\system.drawing.common\\4.7.3\\system.drawing.common.4.7.3.nupkg.sha512",
     "C:\\Users\\brand\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.36.0\\system.identitymodel.tokens.jwt.6.36.0.nupkg.sha512",
     "C:\\Users\\brand\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
-    "C:\\Users\\brand\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\brand\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\brand\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\brand\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",

@@ -1,4 +1,6 @@
-﻿using Beliyuk.API.Models;
+﻿using Belanjayuk.API.Models.Master;
+
+namespace Belanjayuk.API.Repositories.Interfaces;
 
 public interface IUserRepository
 {

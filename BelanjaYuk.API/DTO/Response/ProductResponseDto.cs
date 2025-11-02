@@ -1,4 +1,4 @@
-﻿namespace Beliyuk2.API.DTO.Response;
+﻿namespace Belanjayuk.API.DTO.Response;
 
 public class ProductResponseDto
 {

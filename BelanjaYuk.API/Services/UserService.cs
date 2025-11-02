@@ -1,12 +1,10 @@
-﻿using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using Beliyuk.API.Data;
-using Beliyuk.API.Models;
-using Beliyuk2.API.DTO.Response;
-using Beliyuk2.API.Services.Interfaces;
-using Microsoft.EntityFrameworkCore;
+﻿using System.Security.Claims;
+using Belanjayuk.API.DTO.Response;
+using Belanjayuk.API.Models.Master;
+using Belanjayuk.API.Repositories.Interfaces;
+using Belanjayuk.API.Services.Interfaces;
 
-namespace Beliyuk2.API.Services;
+namespace Belanjayuk.API.Services;
 
 public class UserService : IUserService {
     private readonly IUserRepository _userRepository;

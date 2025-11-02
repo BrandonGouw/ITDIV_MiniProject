@@ -1,5 +1,7 @@
 ﻿using System.Security.Cryptography;
 
+namespace Belanjayuk.API.Helpers;
+
 public class PasswordHelper
 {
     public string HashPassword(string password)

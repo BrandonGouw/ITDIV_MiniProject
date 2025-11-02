@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Belanjayuk.API.Models.Master;
 
-namespace Beliyuk.API.Models;
+namespace Belanjayuk.API.Models.Transaction;
 
 public class TrHomeAddress
 {
@@ -42,7 +43,7 @@ public class TrHomeAddress
     [Required]
     [StringLength(2000)]
     [Column(TypeName = "nvarchar(2000)")]
-    public String homeAddressDesc { get; set; }
+    public String HomeAddressDesc { get; set; }
     
     [Required]
     public Boolean IsPrimaryAddress { get; set; }

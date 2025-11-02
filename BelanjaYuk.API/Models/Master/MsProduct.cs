@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Security;
+using Belanjayuk.API.Models.LookUpTable;
+using Belanjayuk.API.Models.Transaction;
 
-namespace Beliyuk.API.Models;
+namespace Belanjayuk.API.Models.Master;
 
 public class MsProduct
 {
@@ -44,7 +45,7 @@ public class MsProduct
     
     [Required]
     [Column(TypeName = "decimal(18,2)")]
-    public Decimal discountProduct { get; set; }
+    public Decimal DiscountProduct { get; set; }
     
     [Required]
     public int Qty { get; set; }

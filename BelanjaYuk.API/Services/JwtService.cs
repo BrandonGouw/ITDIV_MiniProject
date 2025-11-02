@@ -1,11 +1,11 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Beliyuk.API.Models;
-using Beliyuk2.API.Services.Interfaces;
+using Belanjayuk.API.Models.Master;
+using Belanjayuk.API.Services.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Beliyuk2.API.Services;
+namespace Belanjayuk.API.Services;
 
 public class JwtService : IJwtService
 {

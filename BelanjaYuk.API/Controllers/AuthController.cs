@@ -1,7 +1,8 @@
-﻿using Beliyuk2.API.DTO.Request;
+﻿using Belanjayuk.API.DTO.Request;
+using Belanjayuk.API.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Beliyuk.API.Controllers;
+namespace Belanjayuk.API.Controllers;
 
 [Route ("api/auth")]
 [ApiController]

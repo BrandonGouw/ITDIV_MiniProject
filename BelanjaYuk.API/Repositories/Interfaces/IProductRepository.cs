@@ -1,7 +1,7 @@
-﻿using Beliyuk.API.Models;
-using Beliyuk2.API.DTO.Request;
+﻿using Belanjayuk.API.DTO.Request;
+using Belanjayuk.API.Models.Master;
 
-namespace Beliyuk2.API.Repositories.Interfaces;
+namespace Belanjayuk.API.Repositories.Interfaces;
 
 public interface IProductRepository  {
     public Task<MsProduct> GetProduct(string productId);

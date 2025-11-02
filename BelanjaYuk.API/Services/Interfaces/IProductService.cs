@@ -1,8 +1,8 @@
-﻿using Beliyuk.API.Models;
-using Beliyuk2.API.DTO.Request;
-using Beliyuk2.API.DTO.Response;
+﻿using Belanjayuk.API.DTO.Request;
+using Belanjayuk.API.DTO.Response;
+using Belanjayuk.API.Models.Master;
 
-namespace Beliyuk2.API.Services.Interfaces;
+namespace Belanjayuk.API.Services.Interfaces;
 
 public interface IProductService
 {
@@ -10,4 +10,6 @@ public interface IProductService
     Task<ProductsResponseDto> GetAllProductsOnPage(ProductRequestDto productRequestDto);
     
     Task<IEnumerable<MsProduct>> GetAllProducts();
+    
+    Task<ProductResponseDto> CreateProductAsync(ProductCreationRequestDto productRequestDto);
 }
